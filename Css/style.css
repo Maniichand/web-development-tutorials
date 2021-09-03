@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: blueviolet;
+    height: 70px;
+}
+.left{
+    float: left;
+    background-color: yellowgreen;
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+    border: olive;
+}
+.right{
+    float: right;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: rgb(116, 7, 7);
+    color: white;
+}
+.mid{
+    display: block;
+    width: 36%;
+    margin: 0px auto;
+    color: white;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 25px 20px;
+    color: white;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    background-color: rgb(112, 93, 93);
+}
+.pg h1{
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(167, 78, 42);
+}
+.sg h2{
+    padding-top: 100px;
+    color: indigo;
+}
+.first{
+    padding-top: 70px;
+    width: 21%;
+    height: 12px;
+    margin: 0px auto;
+}
+.second h1{
+    padding-top: 100px;
+    color: blueviolet;
+    padding-left: 14px;
+}
+.second p{
+    text-align: center;
+    padding-top: 100px;
+}
+.tg h1{
+    text-align: center;
+    margin-top: 160px;
+}
+.tg p{
+    width: 32%;
+    font-size: 25px;
+    padding-top: 12px;
+    margin: 0px auto;
+}
+.tg button{
+    margin-left: 400px;
+}
+.fg h1{
+    padding-top: 100px;
+    height: 200px;
+    color: rgb(219, 55, 55);
+}
+.fg h3{
+    width: 33%;
+    margin: 0px auto;
+}
+.fg p{
+    width: 33%;
+    margin: 20px auto;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3rem;
+    background-color: blueviolet;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 2rem 3rem;
+}
+
+.footer__text p {
+    margin-bottom: 1rem;
+}

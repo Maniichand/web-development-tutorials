@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 20px;
+    }
+
+    .navbar {
+        background-color: rgb(226, 47, 47);
+        border-radius: 30px;
+        /* height: 118px; */
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+        margin: 13px 20px 30px;
+        /* padding-bottom: 50px; */
+    }
+
+    .navbar li a {
+        padding: 3px 3px;
+        text-decoration: none;
+        color: #f1f1f1;
+        padding: 8px;
+    }
+
+    .navbar li a:hover {
+        background-color: blue;
+    }
+
+    .search {
+        float: right;
+        color: white;
+        padding: 12px 75px;
+    }
+
+    .navbar input {
+        border: 2px solid black;
+        padding: 3px 17px;
+        border-radius: 14px;
+        width: 129px;
+    }
+
+    #firstPara {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 23px;
+        margin: 14px 20px;
+        padding: 14px 20px;
+    }
+
+    #secondPara {
+        color: seagreen;
+        margin: 14px 20px;
+        padding: 14px 20px;
+    }
+
+    .bgPrimary {
+        color: rgb(243, 131, 26);
+        margin: 0 auto;
+        background-color: silver;
+        width: 255px;
+        border-color: seagreen;
+        border-radius: 15px;
+        border-style: solid;
+        padding: 0px;
+    }
+
+    .bgSecondary {
+        color: white;
+        background-color: blue;
+    }
+
+    .bgThird {
+        color: rgb(245, 103, 21);
+        background-color: wheat;
+    }
+
+    .about p {
+        padding-top: 12px;
+    }
+
+    .project {
+        padding-top: 30px;
+    }
+
+    .project p {
+        margin: 8px 0;
+    }
+
+    .project h2 {
+        background-color: blueviolet;
+    }
+
+    .project a {
+        padding: 10px;
+    }
+
+    .project__links {
+        width: 250px;
+    }
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="cont">
+                <h1 class="bgPrimary">**My Portfolio**</h1>
+            </div>
+            <ul class="navbar">
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">About</a> </li>
+                <li> <a href="#">Services</a> </li>
+                <li> <a href="#">Contact us</a> </li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="search">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p id="firstPara">hi I am Chandan Singh Bisht. <strong>I AM A FRESHER</strong> </p>
+        <div class="about">
+            <h2 class="bgSecondary"> Know about me</h2>
+            <p>I am <strong> <i> Chandan Singh Bisht</i></strong> . I have completed my <strong>Graduation</strong> in
+                B.Sc
+                (Computer Science , Mathematics , Physics).</p>
+        </div>
+        <P>I am from Masi , Chaukhutiya(Almora)</P>
+        <p id="secondPara">I am a <strong> <i>FULL STACK DEVELOPER</i></strong>.</p>
+        <h2 class="bgThird">Contact Information</h2>
+        <p> You Can contact me on number which is mentoned below. <br> contact no. **********</p>
+        <div class="project">
+            <h2>My Projects</h2>
+            <p>My all projects link are given below.</p>
+            <div class="project__links">
+                <a href="prject1.html" target="_blank"> project1</a>
+                <a href="form.html" target="_blank"> Forms </a>
+                <a href="prject3.html" target="_blank"> project3</a>
+                <a href="prject4.html" target="_blank"> project4</a>
+                <a href="prject5.html" target="_blank"> project5</a>
+                <a href="prject6.html" target="_blank"> project5</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

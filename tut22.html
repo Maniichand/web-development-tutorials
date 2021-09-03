@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseduo selector</title>
+    <style>
+        .container{
+            border: 2px solid #e9a1a1;
+            background-color: rgb(184, 226, 141);
+            padding: 12px;
+            margin: 34px;
+            width: 700px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .btn:hover{
+            background-color: crimson;
+            border: 2px solid green;
+        }
+        a:hover{
+            color: blue;
+            background-color: yellow;
+        }
+        a:visited{
+            color: blue;
+        }
+        a:active{
+            background-color: coral;
+        }
+        .btn{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: rgb(144, 236, 184);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+            border-radius: 4px;
+        }
+        h3{
+            width: 455px;
+            margin: 54px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>this is my heading</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, beatae ducimus eaque iusto sunt quibusdam
+            natus. Facere, nulla earum? Unde, blanditiis. Cumque molestias ducimus explicabo incidunt libero distinctio,
+            dignissimos perferendis! Distinctio tempora nam sint.
+        </p>
+        <a href="form.html" class="btn"> Read more</a>
+        <button class="btn"> contact us</button>
+    </div>
+</body>
+</html>
